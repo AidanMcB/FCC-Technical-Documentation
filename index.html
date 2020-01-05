@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html id="page">
+  <link rel="stylesheet" href="styles.css">
+  <nav id="navbar">
+    <header>HTML and HTML 5</header>
+    <ul>
+    <a  class="nav-link" href="#Introduction">
+      <li>Introduction</li></a>
+      
+      <a class="nav-link" href="#The_Basic_Elements">
+        <li>The Basic Elements</li></a>
+        
+        <a  class="nav-link" href="#HTML_5_Elements">
+          <li>HTML 5 Elements</li></a>
+          
+          <a class="nav-link" href="#Images_and_Anchor_Links">
+            <li>Images and Anchor Links</li></a>
+            
+            <a class="nav-link" href="#Ordered_and_Unordered_Lists">
+          <li>Ordered and Unordered Lists</li></a>
+              
+              <a class="nav-link" href="#Form_Elements">
+                <li>Form Elements</li></a>
+
+                <a class="nav-link" href="#The_div_Element">
+                  <li>The div Element</li></a>
+                  
+                 <a class="nav-link" href="#Sources_and_References">
+               <li>Sources and References</li></a>
+                   </ul>
+                   </nav>        
+            <div id="head-container">
+  <head id="welcome-section">
+    <h1>Introduction to HTML and HTML 5</h1>
+              </head></div>
+              
+                  
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Welcome to Introduction to HTML and HTML 5! Throughout this website you will learn how to use basic HTML, or "Hypertext Markup Language", to create your first HTML document. No prior coding or computer knowledge is required, however it will be helpful to have:</p>
+      <ul>
+        <li>A basic understanding of how to use your internet browser of choice, such as Google Chrome, Safari, or FireFox</li>
+        <li>A functioning computer and keyboard, and access to the internet</li>
+        <p>In this course you can expect to learn a few basic things about HTML and HTML 5 to begin your understanding of web developement. The basics concepts covered in this course are as follows:</p><ul>
+        <li>The basic elements used in HTML</li>
+        <li>Some HTML 5 elements to broaden your skills</li>
+        <li>How to add images and anchor links to spice up your HTML</li>
+        <li>Using ordered and unordered lists in HTML</li>
+        <li>Creating forms using the Form element</li>
+        <li>The multiple uses of the div element</li>
+    </section>
+    
+    <section class="main-section" id="The_Basic_Elements">
+      <header>The Basic Elements</header>
+      <p>The Hypertext Markup Language, HTML, uses a series of tags to define different sections of your HTML page. Some basic tags include:</p>
+      <ul>
+        <li><code>&lth1&gt </code></li>
+        <li><code>&ltp&gt </code></li>
+        <li><code>&ltdiv&gt </code></li>
+        <li><code>&ltimg&gt </code></li>
+        <li><code>&lthr&gt </code></li>
+        <p>For this exmaple lets look at the use of the <code>h1</code> tag.<code>h1</code> is usually the title of your page, or the header. It its default is large font. An <code>h1</code> tag, like most tags in HTML, has an opening and closing tag, like this:<br><code> 
+          &lth1&gt &lt/h1&gt</code></p>
+        <p>The <code>h1</code> element tells the browser the main heading of your webpage. In addition, the tags <code> h2, h3, h,4, h5 & h6</code> indicate subheadings in descending order of prominence. The <code>div</code> tag is also a very important tag for starting HTML. It is used to define a devision or section, and can be used as a container for many HTML elements to style with JavaScript or CSS</p>
+        <p>A few other important tags to begin using in HTML are <code>p</code> tags for paragraphs, <code>img</code> tags to insert images, and <code>hr</code> tags for a 'horizontal ruler' to indicate a seperator between sections. It is important to note that an <code>&ltimg&gt</code> tag is a single tag, and does not have closing tag. The <code>&ltimg&gt</code> tag contains a source, and can specify height or width by pixels:<br>
+          <code>&ltimg src="picture_file.png" height="150" width="150"&gt</code> <br>We will discuss the <code>img</code> tag in greater detail in the Images and Anchor Links section of this webpage.
+        </p>
+    </section>
+   
+    <section class="main-section" id="HTML_5_Elements">
+      <header>HTML 5 Elements</header>
+      <p>HTML 5 elements include <code>main, header, footer, nav, video, article, section,</code> and others. These elements help Search Engine Optimization and are more descriptive. Specifically, the <code>main</code> tag indicates the main content of your page, for search engines or other developers reading over your code.<code>Header</code> and <code>footer</code> elements define exactly that: the header to your page and the footer to your page.<code>Article</code> and <code>section</code> elements are used for content within your page. The <code>article</code> tag is used for "independent self-contained content", and can be nested within a <code>section</code> tag A <code>video</code> tag us used to embed a video.
+        A very common and important element in HTML 5 is the <code>&ltnav&gt</code> element. It defines a set of navigational links, such as in a navigation bar just like the one on the far left side of this website. Here is an example of a nav element with clickable links inside of it:<br>
+      <code>&ltnav&gt<br>
+  &lta href="/html/"&gtHTML&lt/a&gt |<br>
+  &lta href="/css/">CSS&lt/a&gt |<br>
+  &lta href="/js/">JavaScript&lt/a&gt |<br>
+  &lta href="/jquery/">jQuery&lt/a&gt<br>
+        &lt/nav&gt</p>
+      <p>As you can see, the <code>nav</code> element uses <code>&lta href=""&gt</code> to link to different elements that appear on the webpage. When these links are clicked the user is brought to the corresponding section of the webpage designated by the <code>href</code> location.</p>
+    </section>
+   
+    <section class="main-section" id="Images_and_Anchor_Links">
+      <header>Images and Anchor Links</header>
+      <p>To add images to your web page, use the <code>&ltimg&gt</code> tag and a source. The image tag is self closing, so it does not need an end or closing tag. The <code>src</code> is the source from where the image is retrieved, be it a https link or a file from your computer such as a .png file. Within the image tag should be an <code>alt</code> attribute. This will provide a text alternative if the browser can not display the image. It is also used by screen readers for the visually impared to know what images are being displayed on the web page. An example of using the image tag with the alt attribute can be seen as follows:<br>
+        <code>&ltimg src="https://www.image.com/image.jpg" alt="A picture of some HTML text."&gt</code>
+      </p>
+      <p>The <code>anchor</code> element links to either another web page. It containts an <code>href</code> attribute, which will be the link to the web page, and some text that will be displayed as a link. An example of the <code>anchor</code> element with a <code>href</code> attribute can be seen as follows:<br>
+        <code>&lta href="https://www.SomeWebPage.com"&gt<a href="#">This will bring you to SomeWebPage.com</a>&lt/a&gt</code><br>
+        The underlined hyperlink text indicates a clickable element that will take you to a new website.
+      </p>
+    </section>
+   
+    <section class="main-section" id="Ordered_and_Unordered_Lists">
+      <header>Ordered and Unordered Lists</header>
+       <p>HTML and HTML5 use list elements to create both ordred and unordered lists. This can be useful for web pages that offer ordered directions such as how to change a tire, or unordered lists for things like ingredients for a recipe. Within these lists are list items, represented as <code>li</code>.An unordered list might be written like this:<br>
+      <code>&ltul&gt<br>
+            &ltli&gtButter&lt/li&gt<br>
+            &ltli&gtMilk&lt/li&gt<br>
+            &ltli&gEggs&lt/li&gt<br>
+            &ltli&gtFlour&lt/li&gt<br>
+        &lt/ul&gt<br></code>
+        and look like this: <br>
+        <code>
+        <ul>
+          <li>Butter</li>
+          <li>Milk</li>
+          <li>Eggs</li>
+          <li>Flour</li>
+        </ul>
+        </code><br>
+        An ordred list may be useful in writing directions that need to be followed step by step. For example, an ordred list desribing how to change a tire could be written as:<br>
+        <code>&ltol&gt<br>
+    &ltli&gtPalce the jack under the car&lt/li
+&gt<br>
+    &ltli&gtProp up the car with the jack, exposing the tire you want to change&lt/li&gt<br>
+           &ltli&gtUse a tire iron to loosen the bolts on the tire&lt/li&gt<br>
+           &ltli&gtTake off the old tire and put on the spare&lt/li&gt<br>
+           &ltli&gtTighten the bolts on the spare, securing it to the car&lt/li&gt<br>
+          &lt/ol&gt
+        </code><br>
+         and look like this:
+         <ol>
+           <li>Place the jack under the car</li>
+           <li>Prop the car wit the jack, exposing the tire you want to change</li>
+           <li>Take off the old tire and put on the spare</li>
+           <li>Tighten the bolts on the spare, securing it to the car</li>
+      </ol>
+      </p>
+    </section>
+  
+    <section class="main-section" id="Form_Elements">
+      <header>Form Elements</header>
+      <p>If you want to submit data to a server you can use the <code>form</code> element to do so! You can use the action attribute to submit the data to a specific URL, like such:<br>
+      <code>
+        &ltform action="https//destination"&gt&lt/form&gt
+        </code><br>
+        However, to perform the action, you'll need to have an <code>input</code> area. Often using <code>placeholder</code> text inside of the input area is a good way to show the user what the purpse of the from is. An example of using an <code>input</code> element within a from is:
+        <br>
+        <code>
+          &ltform action="https://destination"&gt<br>
+          &ltinput type="text" placeholder="put URL here"&gt<br>
+          &lt/form&gt<br>
+        </code>
+        And will look like this:<br>
+        <input type="text" placeholder="put URL here"><br><br><br>
+        To send this data, you can use a <code>submit</code> button within your form element. It will have a type of submit and some text to be contained in the actual button.<br>
+        <code>
+          &ltbutton type="submit"&gtButtonText&lt/button&gt
+        </code><br>
+        An example of a button can be seen below:<br>
+        <button type="submit">ButtonText</button>
+        <br><br>
+        If you want your input to be required, you can simply add the attribute <code>required</code> to your input field. As an example: <br>
+        <code>
+          &ltinput type="text" required&gt
+          </code>
+        Radio buttons are a good way to allow your users to chose one item out of a field of multiple items in a form. By placing <code>input</code> elements within a <code>label</code> element you can create radio buttons that correspond to the input value. It is also good practice to use a <code>for</code> attribute on the label element equal to the <code>id</code> of the input.<br>
+        <code>
+          &ltlabel for="dog"&gt<br>
+          &ltinput id="dog" type="radio" name="dog-cat"&gtdog<br>
+          &lt/label&gt<br>
+        </code>
+          This same method can be applied to creating checkboxes. With the type attribute set to <code>checkbox</code>, using almost the same syntax as the radio button, we can create fields where multiple options can be checked at once.
+          <br><code>
+          &ltlabel for="dog"&gt&ltinput id="dog" type="checkbox" name="animals"&gtText&lt/label&gt<br>
+          </code>
+          <br>
+          Multiple checkboxes within a form would look like this:<br>
+          <label for="dog"><input id="dog" type="checkbox" name="animals">Dog</label><br>
+          <label for="cat"><input id="cat" type="checkbox" name="animals">Cat</label><br>
+          <label for="bird"><input id="bird" type="checkbox" name="animals">Bird</label><br>
+      </p>
+      <p></p>
+    </section>
+   
+    <section class="main-section" id="The_div_Element">
+      <header>The div Element</header>
+       <p>The div or "division" element can be used as a container for multiple elements, and is likely the most common HTML element. The div element is not self closing, so it needs an opening and closing tag, <code>&ltdiv&gt&lt/div&gt</code>. It us used for a division or a section of a web page and can be used to add CSS style elements.</p>
+      <p>One example of the many things you can do with the div element is to wrap lists in them. For example, a list wrapped in a div element could look like this:<br>
+        <code>
+          &ltdiv class="animalList"&gt<br>
+          &ltul&gt<br>
+          &ltli&gtDogs&lt/li&gt<br>
+          &ltli&gtCats&lt/li&gt<br>
+          &ltli&gtBirds&lt/li&gt<br>
+          &lt/ul&gt<br>
+          &lt/div&gt<br>
+        </code>
+        By using the <code>div</code> tag or referencing the <code>class</code> attribute of animalList, you can style the entire div tag with CSS. Div containers are great to use if a large portion of your HTML page need to be styled similarly and you do not want to style each individual element.
+      </p>
+    </section>
+   
+    <section class="main-section" id="Sources_and_References">
+      <header>Sources and References</header>
+      <p><a href="https://www.freecodecamp.org/learn/">learn/freecodecamp.org</a><br>
+        <a href="https://www.w3schools.com/">w3schools.com</a><br>
+         
+      </p>
+     
+    </section>
+    
+  </main>
+    
+</html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+

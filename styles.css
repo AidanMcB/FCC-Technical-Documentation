@@ -1,0 +1,113 @@
+#head-container{
+    outline-style: solid;
+    background-color: tan;
+  }#page{
+    background-color: ForestGreen;
+  }
+  #main-doc{
+    background-color: SpringGreen;
+    margin-left: 250px;
+    position: absolute;
+  }
+  #welcome-section{
+    position: absolute;
+  }
+  h1{
+    text-align: center;
+    color: DarkGreen;
+    font-style: serif;
+  }
+  #navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 90px;
+  }
+  #navbar ul{
+    margin-top: 0%;
+    margin-left: -5%;
+    list-style-type: none;
+    background-color: ForestGreen;
+    font-size: 18px;
+    line-height: 2.5;
+  }
+  #navbar header{
+    margin-top: 0%;
+    height: 30%;
+    color: gray;
+    background-color: black;
+    border-style: solid;
+    border-color: gray;
+    text-align: center;
+  }
+  #navbar li{
+    color: white;
+    text-align: center;
+    margin-left: -12%;
+    border-style: solid;
+    border-color: black;
+  }
+  #navbar header{
+    font-size: 24px;
+  }
+  #main-doc header{
+    outline-style: solid;
+    outline-width: 2px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: tan;
+    width: 20%;
+    text-align: center;
+  }
+  #Introduction{
+    font-size: 17px;
+    line-height: 1.5;
+    margin-left: 2%;
+  }
+  #The_Basic_Elements{
+    line-height: 1.5;
+    font-size: 17px;
+     margin-left: 2%;
+  }
+  #HTML_5_Elements{
+    line-height: 1.5;
+    font-size: 17px;
+     margin-left: 2%;
+    
+  }
+  #Images_and_Anchor_Links{
+      line-height: 1.5;
+    font-size: 17px;
+     margin-left: 2%;
+  }
+  #Ordered_and_Unordered_Lists{
+      line-height: 1.5;
+    font-size: 17px;
+     margin-left: 2%;
+  }
+  #Form_Elements{
+      line-height: 1.5;
+    font-size: 17px;
+     margin-left: 2%;
+  }
+  #The_div_Element{
+      line-height: 1.5;
+    font-size: 17px;
+     margin-left: 2%;
+  }
+  #Sources_and_References{
+    color: green;
+     margin-left: 2%;
+     line-height: 1.5;
+    font-size: 17px;
+  }
+  code{
+    background-color: Beige;
+    font-size: 12pt;
+  }
+  @media (max-width: 250px){main doc
+    {
+    font-size: 12px;}
+  }
+  
